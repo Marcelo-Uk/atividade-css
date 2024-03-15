@@ -1,0 +1,100 @@
+/* Corpo do documento */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* Menu superior */
+ul {
+    list-style-type: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+ul li a {
+    font-family: Tahoma;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul li a:hover {
+    color: coral;
+}
+
+/* Cabeçalhos */
+h1 {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    color: coral;
+    text-align: center;
+}
+
+/* Parágrafos */
+p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* Classe .info */
+.info {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+/* Classe p.intro */
+p.intro:first-letter {
+    color: green;
+    font-size: 200%;
+}
+
+/* ID publicação */
+#publicacao {
+    font-size: 10px;
+}
+
+/* Imagens */
+img {
+    border: 2px solid green;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Lista de Cursos */
+.lista-cursos {
+    font-size: 12px;
+    border-left: 5px solid red;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+}
+
+/* Links da Página */
+a {
+    font-family: Tahoma;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+    text-decoration: underline;
+}
